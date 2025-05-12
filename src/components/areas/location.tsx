@@ -72,31 +72,31 @@ const Location = () => {
             },
           ],
         },
-        {
-          name: "East of England",
-          locations: [
-            {
-              name: "Cambridge",
-              path: ROUTES.LOCATION_DETAILS,
-              coordinates: { lat: 52.2053, lng: 0.1218 },
-            },
-            {
-              name: "Norwich",
-              path: ROUTES.LOCATION_DETAILS,
-              coordinates: { lat: 52.6309, lng: 1.2974 },
-            },
-            {
-              name: "Ipswich",
-              path: ROUTES.LOCATION_DETAILS,
-              coordinates: { lat: 52.0567, lng: 1.1482 },
-            },
-            {
-              name: "Peterborough",
-              path: ROUTES.LOCATION_DETAILS,
-              coordinates: { lat: 52.5695, lng: -0.2405 },
-            },
-          ],
-        },
+        // {
+        //   name: "East of England",
+        //   locations: [
+        //     {
+        //       name: "Cambridge",
+        //       path: ROUTES.LOCATION_DETAILS,
+        //       coordinates: { lat: 52.2053, lng: 0.1218 },
+        //     },
+        //     {
+        //       name: "Norwich",
+        //       path: ROUTES.LOCATION_DETAILS,
+        //       coordinates: { lat: 52.6309, lng: 1.2974 },
+        //     },
+        //     {
+        //       name: "Ipswich",
+        //       path: ROUTES.LOCATION_DETAILS,
+        //       coordinates: { lat: 52.0567, lng: 1.1482 },
+        //     },
+        //     {
+        //       name: "Peterborough",
+        //       path: ROUTES.LOCATION_DETAILS,
+        //       coordinates: { lat: 52.5695, lng: -0.2405 },
+        //     },
+        //   ],
+        // },
       ];
       setRegions(ukRegions);
       setMapCenter([53.0, -1.5]); // Center of UK

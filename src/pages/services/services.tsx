@@ -32,10 +32,10 @@ const serviceLinks = [
     id: "home-organisation",
     label: "Home Organisation",
   },
-  {
-    id: "appartment-cleaning",
-    label: "Appartment Cleaning",
-  },
+  // {
+  //   id: "appartment-cleaning",
+  //   label: "Appartment Cleaning",
+  // },
   {
     id: "carpet-cleaning",
     label: "Carpet Cleaning",

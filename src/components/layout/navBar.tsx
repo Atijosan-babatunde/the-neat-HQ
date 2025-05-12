@@ -28,10 +28,10 @@ const serviceSubLinks = [
   },
   { href: `${ROUTES.SERVICES}/laundry-services`, label: "Laundry Services" },
   { href: `${ROUTES.SERVICES}/home-organisation`, label: "Home Organisation" },
-  {
-    href: `${ROUTES.SERVICES}/appartment-cleaning`,
-    label: "Appartment Cleaning",
-  },
+  // {
+  //   href: `${ROUTES.SERVICES}/appartment-cleaning`,
+  //   label: "Appartment Cleaning",
+  // },
   { href: `${ROUTES.SERVICES}/carpet-cleaning`, label: "Carpet Cleaning" },
 ];
 

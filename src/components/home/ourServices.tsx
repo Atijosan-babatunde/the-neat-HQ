@@ -40,12 +40,12 @@ const OurServices = () => {
       description:
         "A clean home is a happy home! Let The Neat HQ take care of the mess so you can relax and enjoy your space. Our professional house cleaning services ensure every corner is spotless.",
     },
-    {
-      img: serive6,
-      title: "Apartment Cleaning",
-      description:
-        "Live in a fresh, clean space without the hassle! The Neat HQ offers professional apartment cleaning services to keep your home tidy and stress-free.",
-    },
+    // {
+    //   img: serive6,
+    //   title: "Apartment Cleaning",
+    //   description:
+    //     "Live in a fresh, clean space without the hassle! The Neat HQ offers professional apartment cleaning services to keep your home tidy and stress-free.",
+    // },
     {
       img: serive7,
       title: "Carpet Cleaning",

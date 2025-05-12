@@ -30,14 +30,14 @@ export const Services = [
   { label: "Commercial Cleaning", to: "/services/commercial-cleaning" },
   { label: "Laundry Services", to: "/services/laundry-services" },
   { label: "Home Organisation", to: "/services/home-organisation" },
-  { label: "Appartment Cleaning", to: "/services/appartment-cleaning" },
+  // { label: "Appartment Cleaning", to: "/services/appartment-cleaning" },
   { label: "Carpet Cleaning", to: "/services/carpet-cleaning" },
 ];
 
 export const QuickLinks = [
   { label: "About Us", to: "/about-us" },
-  { label: "Login", to: "#" },
-  { label: "Registration Form", to: "#" },
+  { label: "Login", to: "https://theneathq.launch27.com/login" },
+  { label: "Registration Form", to: "/contact-us" },
   { label: "Areac Covered", to: "/areas" },
 ];
 

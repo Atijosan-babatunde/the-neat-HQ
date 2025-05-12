@@ -15,7 +15,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      text: "The Neat HQ transformed my home! The cleaners were professional, thorough, and so friendly. My place has never looked better!",
+      text: "The Neat HQ did an amazing job! The cleaners were professional, thorough, and so friendly. My place has never looked better!",
       name: "Sarah M.",
       image: avatar,
     },
