@@ -51,25 +51,25 @@ const Location = () => {
           name: "East Midlands",
           locations: [
             {
-              name: "Nottingham",
+              name: "East London",
               path: ROUTES.LOCATION_DETAILS,
               coordinates: { lat: 52.9548, lng: -1.1581 },
             },
             {
-              name: "Leicester",
+              name: "Kent",
               path: ROUTES.LOCATION_DETAILS,
               coordinates: { lat: 52.6369, lng: -1.1398 },
             },
             {
-              name: "Hucknall",
+              name: "Essex",
               path: ROUTES.LOCATION_DETAILS,
               coordinates: { lat: 53.0394, lng: -1.2017 },
             },
-            {
-              name: "Brackley",
-              path: ROUTES.LOCATION_DETAILS,
-              coordinates: { lat: 52.0317, lng: -1.1483 },
-            },
+            // {
+            //   name: "Brackley",
+            //   path: ROUTES.LOCATION_DETAILS,
+            //   coordinates: { lat: 52.0317, lng: -1.1483 },
+            // },
           ],
         },
         // {

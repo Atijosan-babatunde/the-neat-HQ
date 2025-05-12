@@ -5,7 +5,6 @@ import serive2 from "../../assets/images/service2.png";
 import serive3 from "../../assets/images/service3.png";
 import serive4 from "../../assets/images/service4.png";
 import serive5 from "../../assets/images/service5.png";
-import serive6 from "../../assets/images/service6.png";
 import serive7 from "../../assets/images/service7.png";
 
 const OurServices = () => {
@@ -40,12 +39,6 @@ const OurServices = () => {
       description:
         "A clean home is a happy home! Let The Neat HQ take care of the mess so you can relax and enjoy your space. Our professional house cleaning services ensure every corner is spotless.",
     },
-    // {
-    //   img: serive6,
-    //   title: "Apartment Cleaning",
-    //   description:
-    //     "Live in a fresh, clean space without the hassle! The Neat HQ offers professional apartment cleaning services to keep your home tidy and stress-free.",
-    // },
     {
       img: serive7,
       title: "Carpet Cleaning",
@@ -65,22 +58,24 @@ const OurServices = () => {
             Our Services
           </Typography>
         </div>
-        <section className="grid mt-13 w-full justify-center items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:[&>*:nth-child(n+4)]:mt-13">
+        <section className="grid mt-13 w-full justify-center items-stretch grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {cleaningServices.map((service, index) => (
             <div
               key={index}
-              className={
+              className={`h-full flex ${
                 index === cleaningServices.length - 1 &&
                 cleaningServices.length % 3 !== 0
                   ? "md:col-start-2"
                   : ""
-              }
+              }`}
             >
-              <BlogCard
-                image={service.img}
-                title={service.title}
-                description={service.description}
-              />
+              <div className="flex flex-col h-full w-full p-4">
+                <BlogCard
+                  image={service.img}
+                  title={service.title}
+                  description={service.description}
+                />
+              </div>
             </div>
           ))}
         </section>
