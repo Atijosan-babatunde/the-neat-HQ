@@ -91,12 +91,12 @@ const LocationModal: React.FC<LocationModalProps> = ({ open, handleOpen }) => {
     <>
       {open && (
         <div
-          className="fixed inset-0 bg-black/50 z-[9999]"
+          className="fixed inset-0 bg-black/50 z-10"
           onClick={handleOpen}
         />
       )}
       <div
-        className={`fixed inset-0 flex items-center justify-center z-[10000] pointer-events-none ${
+        className={`w-full h-screen absolute z-15 mx-auto flex items-center justify-center pointer-events-none ${
           open ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >

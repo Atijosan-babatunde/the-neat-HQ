@@ -2,6 +2,7 @@ import { Typography } from "@material-tailwind/react";
 import postConstruction from "../../assets/images/postConstructionCleaning.png";
 import { Confirm } from "../../assets/svg";
 import { Link } from "react-router-dom";
+import { ROUTES } from "../../components/constants/routes";
 
 const PostConstructionCleaning = () => {
   return (
@@ -91,7 +92,7 @@ const PostConstructionCleaning = () => {
             Book your construction cleaning today and enjoy a fresh a fresh,
             clean space!
           </Typography>
-          <Link to="contact-us">
+          <Link to={ROUTES.CONTACT}>
             <button className="bg-[#7A8F8C] flex self-center justify-center mt-4 w-fit items-center rounded-md py-3 px-6">
               <Typography className="text-[#FFFFFF] font-semibold text-lg">
                 Book A Call Back

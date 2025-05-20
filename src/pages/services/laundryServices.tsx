@@ -2,6 +2,7 @@ import { Typography } from "@material-tailwind/react";
 import laundryCleaning from "../../assets/images/laundryCleaning.png";
 import { Confirm } from "../../assets/svg";
 import { Link } from "react-router-dom";
+import { ROUTES } from "../../components/constants/routes";
 
 const LaundryCleaning = () => {
   return (
@@ -10,7 +11,7 @@ const LaundryCleaning = () => {
         variant="h2"
         className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6"
       >
-        Commercial Cleaning
+        Laundry Cleaning
       </Typography>
       <section className="mt-14 flex flex-col gap-8">
         <img
@@ -92,7 +93,7 @@ const LaundryCleaning = () => {
             Book your laundry service today and enjoy fresh, clean clothes
             effortlessly!
           </Typography>
-          <Link to="contact-us">
+          <Link to={ROUTES.CONTACT}>
             <button className="bg-[#7A8F8C] flex self-center justify-center mt-4 w-fit items-center rounded-md py-3 px-6">
               <Typography className="text-[#FFFFFF] font-semibold text-lg">
                 Book A Call Back

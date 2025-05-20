@@ -2,6 +2,7 @@ import { Typography } from "@material-tailwind/react";
 import homeCleaning from "../../assets/images/homeCleaning.png";
 import { Confirm } from "../../assets/svg";
 import { Link } from "react-router-dom";
+import { ROUTES } from "../../components/constants/routes";
 
 const HomeCleaning = () => {
   return (
@@ -90,7 +91,7 @@ const HomeCleaning = () => {
             Book your end of tenancy clean today and move out with peace of
             mind!
           </Typography>
-          <Link to="contact-us">
+          <Link to={ROUTES.CONTACT}>
             <button className="bg-[#7A8F8C] flex self-center justify-center mt-4 w-fit items-center rounded-md py-3 px-6">
               <Typography className="text-[#FFFFFF] font-semibold text-lg">
                 Book A Call Back

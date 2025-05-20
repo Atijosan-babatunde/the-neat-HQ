@@ -84,7 +84,7 @@ const Services = () => {
       <section className="py-10 md:py-20">
         <div className="container mx-auto px-4 md:max-w-[90%] lg:max-w-[80%]">
           <div className="flex flex-col md:flex-row gap-6 md:gap-10 bg-[#EEECE2] border-[2px] border-[#C1BBA4] p-4 md:p-8 lg:p-12 rounded-xl">
-            <div className="w-full md:w-1/3 md:border-r border-[#D7D3C4] md:pr-4">
+            <div className="w-full md:w-1/3 md:border-r border-[#D7D3C4] md:pr-4 hidden lg:block">
               <ul className="flex flex-row md:flex-col overflow-x-auto md:overflow-visible space-x-4 md:space-x-0 md:space-y-6 lg:space-y-8 px-2 md:px-5 pb-4 md:pb-0">
                 {serviceLinks.map((service) => (
                   <li key={service.id} className="flex-shrink-0 md:flex-shrink">
