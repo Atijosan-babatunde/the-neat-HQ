@@ -38,7 +38,7 @@ export const QuickLinks = [
   { label: "About Us", to: "/about-us" },
   { label: "Login", to: "https://theneathq.launch27.com/login" },
   { label: "Registration Form", to: "/contact-us" },
-  { label: "Areac Covered", to: "/areas" },
+  { label: "Area Covered", to: "/areas" },
 ];
 
 export const ContactUs = [{ label: "The Neat HQ" }];
