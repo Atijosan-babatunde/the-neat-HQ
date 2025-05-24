@@ -173,11 +173,11 @@ const Location = () => {
     <main className="md:max-w-[80%] md:px-0 px-4 container mx-auto py-10 md:py-20">
       <header className="text-center pb-10 md:pb-16">
         <Typography className="font-bold text-2xl">
-          Discover your location from the options below:
+          Discover your location from the options below
         </Typography>
-        <Typography className="font-bold text-2xl">
+        {/* <Typography className="font-bold text-2xl">
           {selectedLocation?.label || "Select a country"}
-        </Typography>
+        </Typography> */}
       </header>
       <section>
         {regions.map((region, index) => (
@@ -186,9 +186,9 @@ const Location = () => {
             className="flex bg-[#EEECE2] md:flex-row flex-col border-[2px] border-[#C1BBA4] py-12 md:px-16 px-4 rounded-xl justify-between gap-10 mt-10 first:mt-0"
           >
             <div className="flex flex-col gap-3">
-              <Typography className="text-2xl font-semibold">
+              {/* <Typography className="text-2xl font-semibold">
                 {region.name}
-              </Typography>
+              </Typography> */}
               <div className="flex mt-3.5">
                 <ul className="flex flex-col gap-7 w-full">
                   {region.locations.map((location, locIndex) => (
